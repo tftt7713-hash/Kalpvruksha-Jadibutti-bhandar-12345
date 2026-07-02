@@ -170,7 +170,7 @@ if prompt := st.chat_input("Apna sawal yahan puchein (e.g., मलय चंद�
                 genai.configure(api_key=api_key_input)
                 
                 model = genai.GenerativeModel(
-                    model_name="gemini-1.5-flash-latest,
+                    model_name="gemini-1.5-flash-latest",
                     system_instruction=STRICT_RULES
                 )
                 
